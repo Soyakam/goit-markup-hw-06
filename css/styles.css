@@ -1252,6 +1252,9 @@ img {
 /* ----------------------------desktop-------- */
 
 @media (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
   .main-header {
     height: 72px;
     border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
