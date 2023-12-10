@@ -706,28 +706,15 @@ img {
   /* -------------------------------Підписка на канал--------------------- */
 
   .block-subscribe {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin-top: 72px;
     margin-left: auto;
     margin-right: auto;
   }
   .subscribe-text {
-    color: var(--WHITE, #fff);
-    /* Body Medium */
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
-    margin-bottom: 16px;
     display: flex;
     justify-content: center;
   }
   .subscribe {
-    gap: 24px;
     padding-left: auto;
     padding-right: auto;
     align-items: center;
@@ -736,42 +723,10 @@ img {
   }
   .subscribe-content {
     width: 288px;
-    height: 40px;
-    border-radius: 4px;
-    border: 1px solid var(--WHITE, #fff);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    background: var(--NAVY-BLUE, #2e2f42);
-    padding-left: 16px;
-    color: var(--WHITE, #fff);
-
-    font-size: 12px;
-    background-color: transparent;
-    letter-spacing: 0.04em;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    line-height: 2;
   }
   .button-subscribe {
-    color: var(--WHITE, #fff);
-    text-align: center;
-    border: none;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.04em;
-    display: inline-flex;
-    padding: 8px 24px;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    border-radius: 4px;
-    background: var(--IRIS, #4d5ae5);
+    margin-top: 16px;
     margin: auto;
-    min-width: 165px;
-    height: 40px;
-    display: flex;
-    font-family: "Roboto", sans-serif;
     margin-top: 16px;
   }
 
@@ -980,15 +935,13 @@ img {
   .our-team-photo {
     gap: 24px;
   }
-
-  /* ----------------------------3-sector mobile---------- */
 }
 
 /* ---------------------------Tablet------------------- */
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 1158px;
   }
   .title {
     font-family: "Roboto", sans-serif;
@@ -1429,8 +1382,12 @@ img {
   /* ---------------------Підвал--------------- */
   .last-land {
     display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
   }
   .logo-and-paragraph {
-    margin-right: 120px;
+  }
+  .block-subscribe {
+    margin-left: 80px;
   }
 }
