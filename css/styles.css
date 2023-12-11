@@ -577,8 +577,6 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  margin-left: 80px;
 }
 .subscribe-text {
   color: var(--WHITE, #fff);
@@ -593,7 +591,6 @@ img {
 }
 .subscribe {
   display: flex;
-  gap: 24px;
 }
 .subscribe-content {
   width: 264px;
@@ -628,7 +625,7 @@ img {
   gap: 16px;
   border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
-  margin-left: 24px;
+
   min-width: 165px;
   height: 40px;
   display: flex;
@@ -1187,17 +1184,24 @@ img {
   .last-land {
     display: flex;
     flex-wrap: wrap;
+    max-width: 584px;
+    row-gap: 72px;
   }
   .text-of-land {
     max-width: 264px;
-    min-height: 72px;
   }
   .logo-and-paragraph {
     margin-right: 24px;
-    margin-left: 108px;
+    width: 264px;
   }
   .block-subscribe {
-    margin-left: 108px;
+    width: 584px;
+  }
+  .land {
+    height: 456px;
+  }
+  .form-label {
+    margin-right: 24px;
   }
 }
 
@@ -1385,6 +1389,7 @@ img {
     margin: auto;
   }
   .logo-and-paragraph {
+    margin-right: 120px;
   }
   .block-subscribe {
     margin-left: 80px;
