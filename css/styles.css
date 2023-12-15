@@ -180,7 +180,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 288px;
+  max-width: 288px;
   min-height: 623px;
   background-color: var(--DAIRY, #fcfcfc);
   background-repeat: 15%;
@@ -335,8 +335,6 @@ img {
 .review-form-checkbox:checked
   + .review-form-checkbox-label
   > .review-form-own-checkbox {
-  background-color: #404bbf;
-  border: none;
   fill: #f4f4fd;
 }
 
@@ -351,7 +349,7 @@ img {
 .review-form-checkbox:checked
   + .review-form-checkbox-label
   .review-form-checkbox-icon {
-  opacity: 1;
+  opacity: 0;
 }
 .review-form-checkbox:focus
   + .review-form-checkbox-label
@@ -872,6 +870,7 @@ img {
   .link-contact {
     padding: 12px;
     display: block;
+    font-weight: 500;
   }
   .link-contact:hover,
   .link-contact:focus {
@@ -916,6 +915,9 @@ img {
   }
   .tell-color {
     color: #404bbf;
+  }
+  .mobile-menu-navigation {
+    margin-bottom: auto;
   }
 
   /* ----------------------------1sector-mobile */
