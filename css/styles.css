@@ -902,6 +902,7 @@ img {
     align-items: center;
     width: 100%;
     height: 100%;
+    fill: white;
   }
 
   .review-form-checkbox-icon {
@@ -909,6 +910,12 @@ img {
 
     width: 24px;
     height: 24px;
+  }
+  .studio-color {
+    color: #404bbf;
+  }
+  .tell-color {
+    color: #404bbf;
   }
 
   /* ----------------------------1sector-mobile */
@@ -1013,7 +1020,10 @@ img {
     letter-spacing: 0.32px;
   }
   .our-team-photo {
-    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    align-items: center;
   }
 }
 
@@ -1073,9 +1083,12 @@ img {
     font-weight: 400;
     line-height: 1.16; /* 116.667% */
     letter-spacing: 0.04em;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
   }
   .link-contact {
-    line-height: 24px;
+    line-height: 14px;
   }
   .link-contact:hover,
   .link-contact:focus {
@@ -1194,6 +1207,7 @@ img {
   }
   .colums {
     padding-top: 96px;
+    padding-bottom: 96px;
   }
   .title-colum {
     align-self: stretch;
@@ -1221,9 +1235,8 @@ img {
   .tape {
     display: flex;
     justify-content: space-between;
-    gap: 24px;
+    gap: 72px 24px;
     flex-wrap: wrap;
-    margin-bottom: 96px;
   }
   /* -----------------------------3секція-------------- */
   .our-team-photo {
@@ -1307,6 +1320,9 @@ img {
     height: 100%;
     gap: 40px;
     font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
   }
   .menu {
     margin-left: 76px;
