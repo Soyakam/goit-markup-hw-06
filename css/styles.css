@@ -234,7 +234,7 @@ img {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  max-width: 256px;
+  max-width: 100%;
   margin-bottom: 16px;
   margin: auto;
 }
